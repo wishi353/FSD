@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <h1>Forms</h1>
+        <form action="#">
+        <div>
+            <label for="username">Username</label>
+            <input type="text" id="username">
+        </div>
+        <br>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your password">
+        </div>
+        <br>
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" id="email">
+        </div>
+        <br>
+        <div>
+            <label for="phone">Phone Number</label>
+            <input type="number" id="phone" max="9" min="0">
+        </div>
+        <br>
+        <div>
+            <label for="gender">Gender</label>
+            <br>
+            <input type="radio" name="gender" value="Female">Female
+            <input type="radio" name="gender" value="Male">Male
+        </div>
+        <br>
+        <div>
+            <label for="hobbies">Hobbies</label>
+            <br>
+            <input type="checkbox" name="hobbies" value="Basketball">Basketball
+            <input type="checkbox" name="hobbies" value="Football">Football
+            <input type="checkbox" name="hobbies" value="Music">Music
+            <input type="checkbox" name="hobbies" value="Dance">Dance
+        </div>
+        <br>
+        <div>
+            <label for="month">Month</label>
+            <select name="month" id="month">
+                <option value="jan">Jan</option>
+                <option value="feb">Feb</option>
+                <option value="march">March</option>
+                <option value="april">April</option>
+                <option value="may">May</option>
+                <option value="june">June</option>
+                <option value="july">July</option>
+                <option value="august">August</option>
+                <option value="sept">Sept</option>
+                <option value="oct">Oct</option>
+                <option value="nov">Nov</option>
+                <option value="dec">Dec</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="month">Month</label>
+            <input type="text" id="month" name="month" list="month">
+            <datalist id="month">
+                <option value="jan">Jan</option>
+                <option value="feb">Feb</option>
+                <option value="march">March</option>
+                <option value="april">April</option>
+                <option value="may">May</option>
+                <option value="june">June</option>
+                <option value="july">July</option>
+                <option value="august">August</option>
+                <option value="sept">Sept</option>
+                <option value="oct">Oct</option>
+                <option value="nov">Nov</option>
+                <option value="dec">Dec</option>
+            </datalist>
+        </div>
+        <br>
+        <div>
+            <label for="comment">Description</label>
+            <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Enter your comments"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="file">Upload File</label>
+            <input type="file" id="file" value="file">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Cancel">
+        </div>
+        <br>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+        <br>
+        <div>
+            <label for="bday">BDAY</label>
+            <input type="date" id="bday">
+        </div>
+        <br>
+        <div>
+            <label for="range">Range</label>
+            <input type="range" id="range" max="100" min="0">
+        </div>
+        <br>
+        <div>
+            <label for="time">Appointment Time</label>
+            <input type="time" id="time">
+        </div>
+        <br>
+        <div>
+            <label for="color">Fav Color</label>
+            <input type="color" id="color">
+        </div>
+        <br>
+        <div>
+            <label for="web">Website</label>
+            <input type="url" id="web">
+        </div>
+        <br>
+        <div>
+            <label for="search">Search</label>
+            <input type="search" id="search">
+        </div>
+        <fieldset>
+            <legend>Personal Info</legend>
+            <br>
+            <div>
+                <label for="phone">Phone Number</label>
+                <input type="number" id="phone" max="9" min="0">
+            </div>
+            <br>
+            <div>
+                <label for="phone">Phone Number</label>
+                <input type="number" id="phone" max="9" min="0">
+            </div>
+        </fieldset>
+    </form>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+#one{
+    height:100px;
+    width:100px;
+    background-color: rgb(85, 186, 85);
+    border-radius: 50%;
+    text-align: center;
+}
+#navbar{
+    padding: 0px;
+    margin: 0px;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+button{
+    background-color: rgb(157, 157, 6);
+}
+#logo{
+    color: rgb(157, 157, 6);
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+}

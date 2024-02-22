@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table Tags</title>
+        <style>
+            table{
+                text-align: center;
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            td,th,tr{
+                border: 1px solid black;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Table Tags</h1>
+        <table>
+            <thead>
+                <tr> <!--Table Row-->
+                    <th>Username</th> <!--Table Column/ th-table heading-->
+                    <th>Password</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr> <!--Table Row-->
+                    <td>vaishnavi2003</td> <!--Table Column/ td-table data-->
+                    <td>123456</td>
+                </tr>
+                <tr> <!--Table Row-->
+                    <td>vaish2003</td> <!--Table Column/ td-table data-->
+                    <td>09678</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Count:2</td> <!--Merge columns-->
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>
